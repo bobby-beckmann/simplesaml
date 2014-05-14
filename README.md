@@ -2,7 +2,7 @@ simplesaml
 ==========
 Webserver setup
 
-'''
+
 <VirtualHost *:80>
         ServerName saml.local
         DocumentRoot /Library/WebServer/Documents/simplesaml/www
@@ -13,4 +13,4 @@ Webserver setup
           Allow from all
         </Directory>
 </VirtualHost>
-'''
+
